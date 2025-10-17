@@ -81,6 +81,29 @@ http://212.79.122.11:5014/udp/239.255.6.30:1234
 #EXTINF:-1 tvg-id="5Kanal.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo_5_Channel.svg/480px-Logo_5_Channel.svg.png" group-title="Ukraine DVB-T2",5 Kanal
 https://776067.live.tvstitch.com/stream.m3u8?m=aHR0cHM6Ly9jZG4uZHl2eWFwaS5jb20udWEvZmFzZGZhc2Rm
 
+#EXTINF:-1 tvg-id="24Kanal.ua@SD",24 Kanal
+https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/24channel/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FREEDOM.ua@SD",Freedom (FREEДOM) (UATV) (720p)
+https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
+
+#EXTINF:-1 tvg-id="ITV.ua@SD",ITV HD
+http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
+
+https://uvotv-aniview.global.ssl.fastly.net/10010/dvr/hls/kyivtv/playlist.m3u8
+#EXTINF:-1 tvg-id="M2.ua@SD",M2 (540p)
+
+EXTINF:-1 tvg-id="TISTV.ua@SD",TIS TV (720p)
+https://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Glas.ua@SD",Глас (576p)
+http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
+
+#EXTINF:-1 tvg-id="NTKTV.ua@SD",НТК ТВ (1080p) [Not 24/7]
+https://stream.ntktv.ua/s/ntk/ntk.m3u8
+
+#EXTINF:-1 tvg-id="OrbitaTV.ua@SD",Орбіта ТВ (360p) [Not 24/7]
+http://ftp.orbita.dn.ua/hls/orbita.m3u8
 ####################
 # Poland DVB-T / IPTV
 ####################
@@ -95,3 +118,4 @@ http://polsat-stream.com/live/polsat.m3u8
 
 #EXTINF:-1 tvg-id="TVN.pl" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/TVN_logo_2016.svg/640px-TVN_logo_2016.svg.png" group-title="Poland DVB-T2",TVN
 http://tvn-stream.com/live/tvn.m3u8
+
