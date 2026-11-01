@@ -1,80 +1,235 @@
 #EXTM3U
-
-#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz"
-
-#EXTINF:-1,ПЕРШИЙ HD
-https://api-tv.ipnet.ua/api/v1/manifest/2118742505.m3u8
-#EXTINF:-1,1+1 Марафон UA
-http://ukr.ukrainske.tv/399/keytvainua/video.m3u8
-#EXTINF:-1,1+1 UA
-http://m3u8.ott.blue/C5UK_1plus1SD/mpegts?token=94450098895765784220366841698509
-#EXTINF:-1,1+1 Україна
-http://portal.ott.pink/C5UK_1plus1SD/index.m3u8?token=927E03BF1A83DF5DE6628CAF78BA2C13
-#EXTINF:-1,1+1 Україна (UA)
-http://portal.ott.pink/C5UK_1plus1SD/index.m3u8?token=2B8378CADCB27AA393170BD7EDB7C0E9
-#EXTINF:-1,FILM TV GROUP
-http://filmtvgroup.hopto.org/FILM_TV_GROUP/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NjEwMDgwNzMsImV4cCI6MTc2MTA5NDQ3Mywic3ViIjoiQWRtaW4ifQ.q63jEFty3Ry19ORUfTNUPhkvCSFnFBk9mHhXIwaxgLQ
-#EXTINF:-1,Новосілки ТБ
-http://filmtvgroup.hopto.org/novosilkiTB/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NjEwMDgwNzMsImV4cCI6MTc2MTA5NDQ3Mywic3ViIjoiQWRtaW4ifQ.q63jEFty3Ry19ORUfTNUPhkvCSFnFBk9mHhXIwaxgLQ
-#EXTINF:-1,FILM TV Кінозал
-http://filmtvgroup.hopto.org/FILMTVKinozaL/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NjEwMDgwNzMsImV4cCI6MTc2MTA5NDQ3Mywic3ViIjoiQWRtaW4ifQ.q63jEFty3Ry19ORUfTNUPhkvCSFnFBk9mHhXIwaxgLQ
-#EXTINF:-1,Бровари Кіно TV
+#EXTINF:-1 tvg-name="1+1 International" group-title="1_Aggregator",1+1 International HD [1920x1080, aggregator]
+https://dash2.antik.sk/live/test_one_plus_one_int_tizen/playlist.m3u8
+#EXTINF:-1 tvg-name="1+1 Marafon" group-title="1_Aggregator",1+1 Марафон [1920x1080, aggregator]
+https://dash2.antik.sk/live/1plus1_marathon/playlist.m3u8
+#EXTINF:-1 tvg-name="100nws" group-title="1_Aggregator",100% News [720x576, aggregator]
+http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
+#EXTINF:-1 tvg-name="1prshmskkrvrh" group-title="0_Official",1 Перший міський Кривий Ріг [1920x1080, official/public]
+https://cdn1.live-tv.cloud/1tvkr/1tvkr-abr-lq/playlist.m3u8
+#EXTINF:-1 tvg-name="24 Kanal" group-title="1_Aggregator",24 Канал [1920x1080, aggregator]
+http://94.131.248.100/news24/livenews.m3u8
+#EXTINF:-1 tvg-name="33 Kanal" group-title="0_Official",33 канал (Хмельницький) [1920x1080, official/public]
+https://33news.org/33chanel/live/chunklist_w459617257.m3u8
+#EXTINF:-1 tvg-name="36.6 TV" group-title="1_Aggregator",36.6 TV [1920x1080, aggregator]
+https://dash2.antik.sk/live/test_tridsatsest_hd_atktv/playlist.m3u8
+#EXTINF:-1 tvg-name="4vrdrm" group-title="1_Aggregator",4ever Drama [1920x1080, aggregator]
+http://stream.mcquack.net/260/index.m3u8
+#EXTINF:-1 tvg-name="5 Kanal" group-title="1_Aggregator",5 Kanal [1920x1080, aggregator]
+http://stream.mcquack.net/291/index.m3u8
+#EXTINF:-1 tvg-name="Avers" group-title="0_Official",Avers [858x480, official/public]
+https://avers.pp.ua/hls/efir.m3u8
+#EXTINF:-1 tvg-name="brvrtb" group-title="1_Aggregator",Бровари ТБ [1920x1080, aggregator]
 https://live20.bozztv.com/giatv/giatv-88882com/88882com/chunks.m3u8
-#EXTINF:-1,КІНО TБ VHS БРОВАРИ
-https://live20.bozztv.com/akamaissh101/ssh101/kinotvua/chunks.m3u8
-#EXTINF:-1,Бровари ТБ
-https://live20.bozztv.com/giatv/giatv-88882com/88882com/chunks.m3u8
-#EXTINF:-1,Film UA Drama
-http://88.99.215.227/FilmUADrama/index.m3u8
-#EXTINF:-1,БОЛТ
-http://88.135.128.20:8090/Bolt/index.m3u8
-#EXTINF:-1,DIM
-http://77.76.145.201:4040/udp/239.39.33.220:1234
-#EXTINF:-1,D1 
-http://portal.ott.pink/C4UK_D1UA/index.m3u8?token=2B8378CADCB27AA393170BD7EDB7C0E9
-#EXTINF:-1,Usba TV - Україна
-https://fl1001.bozztv.com/ushba5/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Usba TV - Україна 2
-https://fl1001.bozztv.com/ushba12/tracks-v1a1/mono.m3u8
-#EXTINF:-1,МИ+ УКРАЇНА HD
-https://api-tv.ipnet.ua/api/v1/manifest/2118742680.m3u8
-#EXTINF:-1,Суспільне Київ HD TV 
-https://ext.cdn.nashnet.tv/228.0.0.41/index.m3u8
-#EXTINF:-1,CPS Fresh UA HD
-http://hls127.freeott.top:8080/CPS_Fresh_UA/video.m3u8
-#EXTINF:-1,Viasat Kino COMEDY
-http://ukr.ukrainske.tv/493/keytvainua/video.m3u8
-#EXTINF:-1 ,Viju_Comedy HD
-http://87.246.54.249:8080/Viju_Comedy/index.m3u8
-#EXTINF:-1 ,Viju_Megahit HD
-http://87.246.54.249:8080/Viju_Megahit/index.m3u8
-#EXTINF:-1 ,Viju_Premiere HD
-http://87.246.54.249:8080/Viju_Premiere/index.m3u8
-#EXTINF:-1,viju TV1000
-http://45.145.32.13:20440/tv1000/index.m3u8?token=test
-#EXTINF:-1,TV1000
-https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
-#EXTINF:-1,TV1000 ACTION HD
-https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
-#EXTINF:-1,viju TV1000 action
-http://80.77.52.3/streams/media/tv1000action_720x576/index.m3u8
-#EXTINF:-1,viju+ Comedy HD
-http://185.46.16.239:8000/VIP_Comedy
-#EXTINF:-1,viju+ Megahit HD 
-http://185.46.16.239:8000/VIP_Megahit
-#EXTINF:-1,viju+ Premiere HD
-http://185.46.16.239:8000/VIP_Premiere
-#EXTINF:-1,Hollywood
-https://stream8.cinerama.uz/1443/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Amedia 1
-http://hls127.freeott.top:8080/Amedia_1/video.m3u8
-#EXTINF:-1,amedia1
-http://158.101.222.193:88/georgia_play.php?id=amedia
-#EXTINF:-1,amedia2
-http://158.101.222.193:88/georgia_play.php?id=amedia2
-#EXTINF:-1,Amedia 2
-http://hls127.freeott.top:8080/Amedia_2_HD/video.m3u8
-#EXTINF:-1,Amedia Hit
-http://158.101.222.193:88/georgia_play.php?id=amediahit
-#EXTINF:-1,Amedia Premium
-http://158.101.222.193:88/georgia_play.php?id=amediapremium
+#EXTINF:-1 tvg-name="bshchstvnnnzvsmtlvdn" group-title="1_Aggregator",Общественное Независимое Телевидение [720x576, aggregator]
+http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
+#EXTINF:-1 tvg-name="Chemodan TV" group-title="1_Aggregator",Чемодан TV [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/399/index.m3u8
+#EXTINF:-1 tvg-name="Chernivetskyi Promin" group-title="1_Aggregator",Чернівецький Промінь [1280x720, aggregator]
+http://langate.tv/promin/live_720/index.m3u8
+#EXTINF:-1 tvg-name="chnnl7krn" group-title="0_Official",Channel 7 Ukraine [896x504, official/public]
+https://cdn15.live-tv.cloud/ua_infinitas_tv/7tvod-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="Dacha" group-title="1_Aggregator",Dacha [1920x1080, aggregator]
+https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
+#EXTINF:-1 tvg-name="Dim" group-title="1_Aggregator",ДІМ [1920x1080, aggregator]
+https://dash2.antik.sk/live/telekanal_dim/playlist.m3u8
+#EXTINF:-1 tvg-name="DiviSport" group-title="1_Aggregator",DiviSport [1920x1080, aggregator]
+http://stream.mcquack.net/457/index.m3u8
+#EXTINF:-1 tvg-name="Dnipro TV" group-title="1_Aggregator",Дніпро TV [1920x1080, aggregator]
+http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Equalympic" group-title="1_Aggregator",Equalympic [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/485/index.m3u8
+#EXTINF:-1 tvg-name="Espreso TV" group-title="1_Aggregator",Еспресо [1920x1080, aggregator]
+https://dash2.antik.sk/live/test_espresso/playlist.m3u8
+#EXTINF:-1 tvg-name="Fashion TV" group-title="1_Aggregator",Fashion TV [1920x1080, aggregator]
+http://stream.mcquack.net/287/index.m3u8
+#EXTINF:-1 tvg-name="Fauna" group-title="1_Aggregator",Fauna [720x576, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/401/index.m3u8
+#EXTINF:-1 tvg-name="FilmUA Drama" group-title="1_Aggregator",FilmUA Drama [1920x1080, aggregator]
+https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8
+#EXTINF:-1 tvg-name="flmlv" group-title="1_Aggregator",FilmUA Live [1920x1080, aggregator]
+https://dash2.antik.sk/live/test_film_life_atktv/playlist.m3u8
+#EXTINF:-1 tvg-name="frdm" group-title="1_Aggregator",FREEДОМ [1920x1080, aggregator]
+https://cdnua03.hls.tv/178/hls/3ce9832c48b67915e9f2769b2dfbb005/91/stream.m3u8
+#EXTINF:-1 tvg-name="hls" group-title="1_Aggregator",Глас [720x576, aggregator]
+http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
+#EXTINF:-1 tvg-name="Hope Channel" group-title="0_Official",Hope Channel Ukraine [x, official/public]
+#EXTVLCOPT:http-user-agent=t=curl/8.16.0
+https://ext.cdn.nashnet.tv/228.0.0.172/index.m3u8
+#EXTINF:-1 tvg-name="I-UA.tv" group-title="0_Official",ITV HD [1280x720, official/public]
+http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
+#EXTINF:-1 tvg-name="ICTV" group-title="1_Aggregator",ICTV2 [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/368/index.m3u8
+#EXTINF:-1 tvg-name="Inter" group-title="1_Aggregator",Inter [1920x1080, aggregator]
+http://stream.mcquack.net/174/index.m3u8
+#EXTINF:-1 tvg-name="K1" group-title="1_Aggregator",K1 [1920x1080, aggregator]
+http://stream.mcquack.net/270/index.m3u8
+#EXTINF:-1 tvg-name="K2" group-title="1_Aggregator",К2 [1920x1080, aggregator]
+http://stream.mcquack.net/324/index.m3u8
+#EXTINF:-1 tvg-name="Kino 1" group-title="1_Aggregator",Kino 1 [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/395/index.m3u8
+#EXTINF:-1 tvg-name="Kino 2" group-title="1_Aggregator",Kino 2 [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/465/index.m3u8
+#EXTINF:-1 tvg-name="Kinowood" group-title="1_Aggregator",Kinowood [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/446/index.m3u8
+#EXTINF:-1 tvg-name="krhds" group-title="0_Official",Круг (Одеса) [280x224, official/public]
+http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr-lq/playlist.m3u8
+#EXTINF:-1 tvg-name="krltsptkhmktmrv2022" group-title="1_Aggregator",Кролецип та хом'як темряви (2022) [1920x1080, aggregator]
+https://ashdi.vip/video16/1/serials/chickenhare_and_the_hamster_of_darkness_2022_bdremux_1080p_101442/hls/A6aXi3WOjuRakhH+D4w=/index.m3u8
+#EXTINF:-1 tvg-name="krm24" group-title="1_Aggregator",Krim 24 [960x540, aggregator]
+http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8
+#EXTINF:-1 tvg-name="Kus-Kus" group-title="1_Aggregator",Кус-Кус [1920x1080, aggregator]
+https://dash2.antik.sk/live/test_kuskus_tv_atktv/playlist.m3u8
+#EXTINF:-1 tvg-name="lgnsk24" group-title="1_Aggregator",Lugansk 24 [640x360, aggregator]
+https://streaming.televizor-24-tochka.ru/live/29.m3u8
+#EXTINF:-1 tvg-name="lnttv" group-title="1_Aggregator",Ланет.TV [864x486, aggregator]
+https://kiev1-cdn.lanet.tv/live/1008.m3u8
+#EXTINF:-1 tvg-name="M1" group-title="1_Aggregator",M1 [1920x1080, aggregator]
+http://stream.mcquack.net/218/index.m3u8
+#EXTINF:-1 tvg-name="Mega" group-title="1_Aggregator",Mega [1920x1080, aggregator]
+http://stream.mcquack.net/325/index.m3u8
+#EXTINF:-1 tvg-name="mgglv" group-title="1_Aggregator",MEGOGO LIVE [x, aggregator]
+https://tva.in.ua/live/megogo_life.m3u8
+#EXTINF:-1 tvg-name="mggsprt" group-title="1_Aggregator",MEGOGO Sport [1920x1080, aggregator]
+http://5.188.159.128:8070/megogo_sport/index.m3u8
+#EXTINF:-1 tvg-name="mh" group-title="1_Aggregator",Мега [1280x720, aggregator]
+http://195.189.196.44:8081/ua_infinitas_tv/mega-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="mncstcbrsprt" group-title="1_Aggregator",Maincast Cybersport [1920x1080, aggregator]
+http://stream.mcquack.net/487/index.m3u8
+#EXTINF:-1 tvg-name="mncstsprt" group-title="1_Aggregator",Maincast Sport [1920x1080, aggregator]
+http://stream.mcquack.net/490/index.m3u8
+#EXTINF:-1 tvg-name="mzvr" group-title="0_Official",Muzvar [1280x720, official/public]
+https://cdn15.live-tv.cloud/ua_infinitas_tv/muzvar-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="Nashe Music" group-title="0_Official",НАШЕ Music [1280x720, official/public]
+https://cdn15.live-tv.cloud/ua_infinitas_tv/nashemus-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="nrtngtv" group-title="1_Aggregator",InRating TV [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/147/index.m3u8
+#EXTINF:-1 tvg-name="nshlbmknkrn" group-title="1_Aggregator",Nashe Lubimoe Kino Ukraine [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/456/index.m3u8
+#EXTINF:-1 tvg-name="nt" group-title="1_Aggregator",ОНТ [720x576, aggregator]
+http://85.238.112.40:8810/hls_sec/239.1.75.33-.m3u8
+#EXTINF:-1 tvg-name="ntkklm" group-title="0_Official",НТК (Коломия) [1920x1080, official/public]
+https://stream.ntktv.ua/s/ntk/ntk.m3u8?cur=&key=3i277
+#EXTINF:-1 tvg-name="ntktv" group-title="0_Official",NTK TV [1920x1080, official/public]
+http://stream.ntktv.ua/s/ntk/ntk.m3u8
+#EXTINF:-1 tvg-name="NTN" group-title="1_Aggregator",НТН [1280x720, aggregator]
+http://195.189.196.44:8081/ua_infinitas_tv/ntn-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="nvknl" group-title="1_Aggregator",Novyi Kanal [1920x1080, aggregator]
+http://stream.mcquack.net/157/index.m3u8
+#EXTINF:-1 tvg-name="Oce" group-title="1_Aggregator",OTSE [1920x1080, aggregator]
+http://93.113.203.152/iptv/XVU58NBPX2LUMP/6380/index.m3u8
+#EXTINF:-1 tvg-name="One Planet" group-title="1_Aggregator",One Planet [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/448/index.m3u8
+#EXTINF:-1 tvg-name="Pershiy Zakhidnyi" group-title="1_Aggregator",Перший Західний [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/246/index.m3u8
+#EXTINF:-1 tvg-name="Pixel TV" group-title="0_Official",Pixel TV [1280x720, official/public]
+https://cdn15.live-tv.cloud/ua_infinitas_tv/pixel-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="prshmskds" group-title="1_Aggregator",Перший міський (Одеса) [1920x1080, aggregator]
+https://live.1tv.od.ua/stream1/channel1/playlist.m3u8
+#EXTINF:-1 tvg-name="prvhrdskdss" group-title="1_Aggregator",Первый городской (Одесса) [1920x1080, aggregator]
+http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
+#EXTINF:-1 tvg-name="qztv" group-title="1_Aggregator",Quiz TV [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/397/index.m3u8
+#EXTINF:-1 tvg-name="r" group-title="1_Aggregator",Рай [720x480, aggregator]
+https://stream.rai.ua/rai/stream.m3u8
+#EXTINF:-1 tvg-name="Rada TV" group-title="0_Official",Rada TV [1280x720, official/public]
+https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="RAI TV" group-title="1_Aggregator",Telekanal RAI [1920x1080, aggregator]
+http://92.253.233.136/uploads/playlist.m3u8
+#EXTINF:-1 tvg-name="rdlksfmlvv" group-title="0_Official",Радіо Люкс FM (Львів) [x, official/public]
+https://streamvideo.luxnet.ua/luxlviv/luxlviv.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="Reporter TV" group-title="0_Official",Репортер (Одеса) [1280x720, official/public]
+http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="rlmdrd" group-title="1_Aggregator",Real Madrid [1280x720, aggregator]
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
+#EXTINF:-1 tvg-name="rmtb" group-title="1_Aggregator",Армія ТБ [1920x1080, aggregator]
+http://195.54.52.40/test/index.m3u8
+#EXTINF:-1 tvg-name="rnm" group-title="1_Aggregator",Renome [720x576, aggregator]
+http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
+#EXTINF:-1 tvg-name="rsprt1" group-title="1_Aggregator",Eurosport1 HD [1920x1080, aggregator]
+http://178.134.1.158:8081/eurosport/index.m3u8
+#EXTINF:-1 tvg-name="rt" group-title="1_Aggregator",IRT [720x576, aggregator]
+https://stream.irt.ua/memfs/8fac7cbb-3356-4a03-bb77-4439b727ebd2.m3u8
+#EXTINF:-1 tvg-name="Rybalka" group-title="1_Aggregator",Rybalka [1280x720, aggregator]
+https://dash2.antik.sk/live/test_rybalka_tv_atktv/playlist.m3u8
+#EXTINF:-1 tvg-name="rz3ntrntnl" group-title="1_Aggregator",RAZ 3 International [1920x1080, aggregator]
+https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
+#EXTINF:-1 tvg-name="sfrtv" group-title="0_Official",Сфера ТВ [1280x720, official/public]
+http://cdn10.live-tv.od.ua:8081/sferarv/sferarv-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="sfrtvrvn" group-title="0_Official",Сфера ТВ (Рівне) [1280x720, official/public]
+http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
+#EXTINF:-1 tvg-name="Sk1" group-title="0_Official",CK 1 [1280x720, official/public]
+http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="sk1zhtmr" group-title="0_Official",СК1 (Житомир) [1280x720, official/public]
+http://cdn1.live-tv.od.ua:8081/sk1zt/sk1zt-abr/sk1zt/sk1zt720p/playlist.m3u8
+#EXTINF:-1 tvg-name="slnd" group-title="0_Official",Islandia [1280x720, official/public]
+https://cdn15.live-tv.cloud/ua_infinitas_tv/islandiya-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="smngblckd" group-title="0_Official",Simon [Geo-blocked] [1280x720, official/public]
+https://hls.simon.ua/live-HD/live/playlist.m3u8
+#EXTINF:-1 tvg-name="smnkhrkv" group-title="0_Official",Simon (Харків) [1280x720, official/public]
+http://hls.simon.ua/live-HD/live/playlist.m3u8
+#EXTINF:-1 tvg-name="Sport 1" group-title="1_Aggregator",Sport 1 [720x576, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/391/index.m3u8
+#EXTINF:-1 tvg-name="Sport 2" group-title="1_Aggregator",Sport 2 [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/392/index.m3u8
+#EXTINF:-1 tvg-name="Sport 4" group-title="1_Aggregator",Sport 4 [704x576, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/394/index.m3u8
+#EXTINF:-1 tvg-name="stntsprts1" group-title="1_Aggregator",Setanta Sports 1 [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8P7MBSH7RRPL53/20074/index.m3u8
+#EXTINF:-1 tvg-name="tbnkrn" group-title="1_Aggregator",TBN Україна [1280x720, aggregator]
+https://5d23269b3ec0c.streamlock.net/WEB_Ukraine24/ngrp:Ukraine24.stream-adaptive/playlist.m3u8
+#EXTINF:-1 tvg-name="Terra" group-title="1_Aggregator",Terra [720x576, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/402/index.m3u8
+#EXTINF:-1 tvg-name="TET" group-title="1_Aggregator",ТЕТ [1920x1080, aggregator]
+http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/6377/index.m3u8
+#EXTINF:-1 tvg-name="tlknlrprtrds" group-title="0_Official",Телеканал Репортер Одеса [1280x720, official/public]
+http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
+#EXTINF:-1 tvg-name="Travel Guide" group-title="0_Official",Travel Guide TV [1280x720, official/public]
+http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="trkkrg" group-title="0_Official",TRK Krug [720x576, official/public]
+http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr/krugod/krugod/playlist.m3u8
+#EXTINF:-1 tvg-name="tvchrnvts" group-title="1_Aggregator",ТВА (Чернівці) [1280x720, aggregator]
+http://hls.cdn.ua/tva.ua_live/livestream/chunklist_w396178779.m3u8
+#EXTINF:-1 tvg-name="Tviy Serial" group-title="1_Aggregator",Твій серіал [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/466/index.m3u8
+#EXTINF:-1 tvg-name="tvrvn" group-title="0_Official",ITV (Рівне) [848x480, official/public]
+http://cdn10.live-tv.od.ua:8081/itvrv/abr-lq/playlist.m3u8
+#EXTINF:-1 tvg-name="tvrvn1" group-title="0_Official",TV Rivne 1 [640x352, official/public]
+https://cdn1.live-tv.cloud/rivne1/rivne1-abr/playlist.m3u8
+#EXTINF:-1 tvg-name="tvtvrg" group-title="1_Aggregator",ТВА tva*org-ua [1280x720, aggregator]
+http://hls.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
+#EXTINF:-1 tvg-name="UA:Krym" group-title="1_Aggregator",Суспільне Крим [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://stream.mcquack.net/436/index.m3u8
+#EXTINF:-1 tvg-name="Unian TV" group-title="1_Aggregator",UNIAN Serial [1920x1080, aggregator]
+#EXTVLCOPT:http-user-agent=t=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/341/index.m3u8
+#EXTINF:-1 tvg-name="Viva Latino" group-title="1_Aggregator",¡Viva Latino! [1920x1080, aggregator]
+http://stream.mcquack.net/285/index.m3u8
+#EXTINF:-1 tvg-name="vrsltsk" group-title="0_Official",Аверс (Луцьк) [858x480, official/public]
+https://avers.pp.ua/hls/efir.m3u8?key=iptv*org*ua
+#EXTINF:-1 tvg-name="vstpcdrm" group-title="1_Aggregator",Viasat Epic Drama [720x576, aggregator]
+http://195.189.60.253/118/index.m3u8
+#EXTINF:-1 tvg-name="wtnkrn" group-title="1_Aggregator",EWTN Ukraine [1920x1080, aggregator]
+https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8
+#EXTINF:-1 tvg-name="zmltv" group-title="0_Official",Ізмаїл ТВ [720x576, official/public]
+http://cdn10.live-tv.od.ua:8081/izod/izod-abr/playlist.m3u8
+
